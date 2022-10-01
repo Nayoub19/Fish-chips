@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Changa:wght@500&family=Libre+Baskerville:wght@700&family=Montserrat:wght@500&family=Oswald:wght@300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/fond.png);
+}
+nav{ 
+    text-align: center;
+    background-color:#25b3b4 ;
+    margin-top: 50px;
+    border-bottom:solid 3px #0f8f8f;
+    border-top:solid 3px #0f8f8f;
+    padding-bottom: 20px;
+}
+body ul li{
+    display:inline;
+    padding:15px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+
+.welcome{
+    text-align:center;
+    margin: auto;
+    width:40em;
+}
+
+h1{
+    font-family: var(Changa), sans-serif;
+    color:rgb(14, 14, 73);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+h2{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 3em;
+    padding-bottom: 40px;
+    
+}
+section{
+    margin: auto;
+    width: 800px;
+    background-color: #b9e9e9;
+    padding: 1em;
+    position: relative;
+    right:8em;
+}
+h4{
+    font-family: var(Changa), sans-serif;
+    font-size: larger;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.today{
+    color: #25b3b4;
+}
+.plat1{
+    border-radius: 50%;
+    float: left;
+    padding: 1em;
+}
+.plat2{
+    border-radius: 50%;
+    float: left;
+    padding: 1em;
+}
+.first{
+    width: 300px;
+    float: left;
+    padding-left: 3em;
+}
+.second{
+    display: inline-block;
+    width: 300px;
+    padding-left: 3em;
+}
+button{
+    background-color: #25b3b4;
+    padding: 15px 10px;
+    color: white;
+    border:none;
+    font-size: large;
+}
+button:hover{
+    cursor: pointer;
+}
+.btn{
+    text-align: right;
+}
+.asicle{
+    padding: 20px 20px;
+    width: 250px;
+    height: 600px;
+ background-color:#25b3b4;
+ border: #0f8f8f solid 3px;
+ display: inline-block;
+ position: absolute;
+ margin: 3em;
+ left:65em;
+ top: 46em;
+ color: white;
+ z-index: -1;
+}
+.fish{
+    position: absolute;
+    right: 4em;
+    top: 45em;
+}
+footer{
+    padding-top: 20px;
+    text-align: center;
+    margin: 20px ;
+    cursor: pointer;
+}
+.fish:hover{
+    transform: rotate(70deg);
+    cursor: pointer;
+}
+footer p{
+    padding-top: 20px;
+}
